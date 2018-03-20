@@ -1,15 +1,11 @@
-body{
-    margin: 0;
-    padding: 0;
-
-}
+body{}
 header{
     background-image: url("image/img_head.jpg");
     width: 750px;
     height: 271px;
 }
 .syte{
-    width: 750px;
+    max-width: 750px;
     height: 1690px;
     background: url("image/background.png");
     margin: 0 auto;
