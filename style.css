@@ -1,15 +1,15 @@
 body{}
 header{
-    background-image: url("image/img_head.jpg");
-    width: 750px;
-    height: 271px;
+    max-width: 750px;
+    height: 100px;
+    background: #500a00;
+}
 }
 .syte{
     max-width: 750px;
     background: url("image/background.png");
-    margin: 0 auto;
+    margin: auto auto;
     padding: 0;
-    margin: 0;
 }
 .log_text{
 }
@@ -18,7 +18,7 @@ header{
 
 }
 .menu{
-    padding-top: 231px;
+    padding-top: 0;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -26,6 +26,7 @@ header{
     font-family: Lobster;
     font-size: 20pt;
     transition: .5s ease-in-out;
+    z-index: 999;
 }
 .menu:hover{
     transition: .5s ease-in-out;
@@ -33,8 +34,8 @@ header{
 }
 .sl__img {
     margin: 0 auto 0;
-    width: 750px;
-    height: 400px;
+    max-width: 750px;
+    max-height: 400px;
 }
 
 .h3__center{
@@ -85,4 +86,8 @@ header{
 }
 .verouch{
     background-image: url("image/wood_dark.jpg");
+}
+.blog{
+    max-width: 750px;
+
 }
